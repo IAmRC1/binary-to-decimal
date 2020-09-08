@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Beyno";
+  src: url("../fonts/beyno.ttf")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$light-color: #fefefe;
+$light-heading-color: #065c6f;
+
+$dark-color: #232B32;
+$dark-heading-color: #ffbd69;
+
+body{
+  font-family: "Raleway", sans-serif;
+  .section{
+    background-color: $light-color;
+    &>div{
+      width: 500px;
+      text-align: center;
+      h3{
+        font-size: 3rem;
+        font-weight: bold;
+        color: $light-heading-color;
+        margin-bottom: 3rem;
+        font-family: "Beyno", sans-serif;
+      }
+      form{
+        label{
+          color: $light-heading-color;
+        }
+      }
+    }
+  }
+  &.dark-theme{
+    .section{
+      background-color: $dark-color;
+      background: url('../images/binary.jpg') no-repeat center;
+      &>div{
+        h3{
+          color: $dark-heading-color;
+        }
+        form{
+          label{
+            color: $dark-heading-color;
+            small{
+              color: darken($dark-heading-color, 30%) !important;
+            }
+          }
+        }
+      }
+    }
+    .toggle{
+      label{
+        color: $dark-heading-color;
+        &:before{
+          background-color: $dark-heading-color !important;
+          border-color: $dark-heading-color !important;
+        }
+      }
+    }
+  }
+  .toggle{
+    position: fixed;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    label{
+      color: $light-heading-color;
+    }
+  }
+}
