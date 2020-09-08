@@ -13,8 +13,9 @@ export default class App extends React.Component{
     if(localStorage.getItem("theme")){
       const val = localStorage.getItem("theme")
       if(val === "dark"){
-        document.body.classList.add("dark-theme")}
+        document.body.classList.add("dark-theme")
         this.setState({ darkmode: true })
+      }
     }
   }
 
