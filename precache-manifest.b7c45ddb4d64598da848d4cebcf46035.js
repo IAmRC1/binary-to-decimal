@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58eb9f5d70522156e879004e310c868a",
+    "revision": "e782432a34bf9383ccf5a9bd2f4ad10a",
     "url": "/binary-to-decimal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/binary-to-decimal/static/css/2.f2f6d01e.chunk.css"
   },
   {
-    "revision": "2a4d640d0f659831a5c8",
+    "revision": "5a78196a4f17d41a0753",
     "url": "/binary-to-decimal/static/css/main.37f7712c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/binary-to-decimal/static/js/2.f00ebbb9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a4d640d0f659831a5c8",
-    "url": "/binary-to-decimal/static/js/main.c231560c.chunk.js"
+    "revision": "5a78196a4f17d41a0753",
+    "url": "/binary-to-decimal/static/js/main.0148e913.chunk.js"
   },
   {
     "revision": "3570058770b2e8cf984a",
